@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Quiz Time</h1>
+    <h3>Try to guess a 5-letter word, you have 4 attempts</h3>
+    <h4>Colors meaning:</h4>
+    <p>grey - the letter is not in the word to guess</p>
+    <p>yellow - the letter is in the word but at another position</p>
+    <p>green - you guessed the letter</p>
+    <div class="guess1">
+      <p>GUESS 1</p>
+      <span class="letter11"></span>
+      <span class="letter12"></span>
+      <span class="letter13"></span>
+      <span class="letter14"></span>
+      <span class="letter15"></span>
+    </div>
+    <div class="guess2">
+      <p>GUESS 2</p>
+      <span class="letter21"></span>
+      <span class="letter22"></span>
+      <span class="letter23"></span>
+      <span class="letter24"></span>
+      <span class="letter25"></span>
+    </div>
+    <div class="guess3">
+      <p>GUESS 3</p>
+      <span class="letter31"></span>
+      <span class="letter32"></span>
+      <span class="letter33"></span>
+      <span class="letter34"></span>
+      <span class="letter35"></span>
+    </div>
+    <div class="guess4">
+      <p>GUESS 4</p>
+      <span class="letter41"></span>
+      <span class="letter42"></span>
+      <span class="letter43"></span>
+      <span class="letter44"></span>
+      <span class="letter45"></span>
+    </div>
+    <p>Click the button to make a guess</p>
+    <button id="btn" onclick="guessCheck()">try</button>
+    <script src="index.js"></script>
+  </body>
+</html>
